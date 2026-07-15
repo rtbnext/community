@@ -1,0 +1,39 @@
+name: Data Issue
+description: Report incorrect or missing data.
+title: "[Data]: "
+labels:
+  - data
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the quality of RTBNext data.
+        RTBNext data is automatically collected and processed from external sources.
+        Data cannot usually be modified manually. Reports help us identify and improve
+        the underlying data processing.
+
+  - type: textarea
+    id: incorrect
+    attributes:
+      label: What's incorrect?
+      description: Describe the incorrect or missing data.
+      placeholder: Explain the issue...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should the data be?
+      description: Describe the expected data.
+      placeholder: What should be shown instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (optional)
+      description: Please provide a reliable source if available.
+      placeholder: https://...
