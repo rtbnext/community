@@ -2,7 +2,7 @@
 name: Data Issue
 about: Create a report on incorrect or missing data
 title: ''
-labels: ''
+labels: data
 assignees: ''
 
 ---
