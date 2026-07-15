@@ -5,6 +5,10 @@ contact_links:
     url: https://github.com/orgs/rtbnext/discussions
     about: Ask questions or start a discussion.
 
+  - name: API Documentation
+    url: https://docs.rtbnext.de
+    about: Read the API documentation before reporting usage questions.
+
   - name: RTBNext Status
     url: https://status.rtbnext.de
     about: Check the current operational status of RTBNext services.
